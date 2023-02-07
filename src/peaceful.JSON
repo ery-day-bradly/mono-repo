@@ -1,0 +1,20 @@
+{
+  "title": {
+    "author": "String",
+    "trim": true,
+    "index": true,
+    "required": false
+  },
+  "names": {
+    "type": "Name",
+    "max": 10,
+    "validate": "10-names"
+  },
+  "dev": {
+    "type": "validation",
+    "ref": "Author",
+    "index": false,
+    "required": true,
+    "validate": "100-names"
+  }
+}
